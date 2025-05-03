@@ -160,6 +160,20 @@ function goodKeys(obj, callback) {
 // Challenge 17
 function commutative(func1, func2, value) {
 
+  function commutative(func1, func2, value) {
+	//func1(value) -> output -> func2(output) = func2(value) -> output -> func1(output) return true?
+  let first = func1(value)  
+  let second = func2(first)
+  let third = func2(value)
+  let fourth = func1(third)
+  
+  if (second === fourth){
+    return true
+  }
+  else{
+    return false
+  }
+}
 }
 
 // /*** Uncomment these to check your work! ***/
