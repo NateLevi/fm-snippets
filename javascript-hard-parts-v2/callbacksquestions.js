@@ -1,4 +1,7 @@
-// Type JavaScript here and click "Run Code" or press Ctrl + s
+http://csbin.io/callbacks
+[Google](https://www.google.com)
+
+// Type JavaScript here and click "Run Code" or press Ctrl + s 
 console.log('Hello, world!');
 
 
@@ -280,6 +283,7 @@ function addToSum(num) {
 // const nums = [1, 2, 3];
 // myForEach(nums, addToSum);
 // console.log(sum); // Should output 6
+
 
 /*
 Challenge 1
